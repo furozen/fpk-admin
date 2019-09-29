@@ -1,0 +1,31 @@
+.wrapper {
+  width: calc(100% - 40px);
+  padding: 20px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper a {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  min-height: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: darkgrey;
+  font-family: "Arial", sans-serif;
+  color: black;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 200ms linear;
+}
+
+.wrapper a:hover {
+  background-color: lightgrey;
+  transition: all 200ms linear;
+}

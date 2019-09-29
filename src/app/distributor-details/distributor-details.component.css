@@ -1,0 +1,45 @@
+h2, p {
+  font-family: "Arial", sans-serif;
+}
+
+div {
+  background-color: lightgrey;
+  padding: 10px;
+  padding-bottom: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  font-weight: 700;
+}
+
+a {
+  background-color: darkgrey;
+  border: 1px solid darkgrey;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 40px;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+  padding: 10px 10px;
+  margin-top: 15px;
+  transition: all 200ms linear;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  transition: all 200ms linear;
+}

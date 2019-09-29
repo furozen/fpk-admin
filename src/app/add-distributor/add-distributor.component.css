@@ -1,0 +1,64 @@
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  padding-bottom: 20px;
+}
+
+form h2 {
+  margin-top: 25px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+input {
+  font-family: "Arial", sans-serif;
+  width: calc(100% - 70px);
+  margin: 5px auto;
+  padding: 0 10px;
+  font-size: 22px;
+  min-height: 30px;
+  border-radius: 10px;
+  border: 1px solid darkgrey;
+  outline: none;
+  transition: all 200ms linear;
+}
+
+select {
+  font-family: "Arial", sans-serif;
+  width: calc(100% - 50px);
+  margin: 5px auto;
+  font-size: 22px;
+  min-height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid darkgrey;
+  outline: none;
+  transition: all 200ms linear;
+}
+
+input:focus, select:focus, input:hover, select:hover {
+  border: 1px solid darkblue;
+  transition: all 200ms linear;
+}
+
+button[type="submit"] {
+  width: 50%;
+  align-self: center;
+  margin-top: 15px;
+  min-height: 30px;
+  border: 1px solid black;
+  border-radius: 7px;
+  transition: all 200ms linear;
+  background-color: grey;
+  outline: none;
+  font-size: 25px;
+  font-family: "Arial", sans-serif;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: black;
+  color: white;
+  transition: all 200ms linear;
+}
